@@ -1,0 +1,169 @@
+.task_container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.task_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.task_table th,
+.task_table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.task_table th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status.completed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.in-progress {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+
+
+.edit_btn,
+.delete_btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  width: 70px;
+  transition: background-color 0.3s ease;
+}
+
+.edit_btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit_btn:hover {
+  background-color: #0056b3;
+}
+
+.delete_btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete_btn:hover {
+  background-color: #a71d2a;
+}
+
+
+
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal_content {
+  background: white;
+  padding: 20px 25px;
+  border-radius: 8px;
+  width: 350px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.modal_content h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.modal_content label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.modal_content input,
+.modal_content select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.modal_actions {
+  text-align: right;
+}
+
+.save_btn {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 13px 0px;
+}
+
+.save_btn:hover {
+  background-color: #218838;
+}
+
+.cancel_btn {
+  background-color: #6c757d;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancel_btn:hover {
+  background-color: #5a6268;
+}
+
+
+.success_msg {
+  color: green;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.error_msg {
+  color: red;
+  margin-bottom: 15px;
+  font-weight: 600;
+}

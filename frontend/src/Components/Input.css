@@ -1,0 +1,16 @@
+.Customised_Input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.Customised_Input:focus {
+    border-color: #5f5fff;
+    box-shadow: 0 0 0 4px rgba(95, 95, 255, 0.2);
+}

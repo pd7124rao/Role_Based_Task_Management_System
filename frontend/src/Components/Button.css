@@ -1,0 +1,27 @@
+.customised_button {
+    display: block; 
+    width: 100%;    
+    border: 1px solid #4141c7;
+    background-color: #5f5fff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    text-align: center; 
+    margin: 1rem 0;
+}
+
+.customised_button:hover {
+    background-color: #ffffff;
+    color: #5f5fff;
+    box-shadow: 0 7px 29px rgba(100, 100, 111, 0.2);
+    border-color: #5f5fff;
+}
+
+.customised_button:focus {
+    box-shadow: 0 0 0 3px rgba(95, 95, 255, 0.4);
+}

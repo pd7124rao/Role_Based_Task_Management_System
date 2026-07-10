@@ -1,0 +1,84 @@
+
+.crs-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.crs-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+
+.crs-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.crs-table thead {
+  background-color: #f1f3f5;
+}
+
+.crs-table th,
+.crs-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 1rem;
+  color: #333;
+}
+
+.crs-table th {
+  font-weight: 600;
+  color: #555;
+}
+
+.crs-row:hover {
+  background-color: #f9fafb;
+  transition: background-color 0.3s ease;
+}
+
+
+.crs-select {
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border 0.2s ease;
+}
+
+.crs-select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+.crs-loading,
+.crs-error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 2rem;
+}
+
+.crs-role-error {
+  margin-bottom: 1rem;
+  color: #d9534f;
+  background-color: #f8d7da;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #f5c2c7;
+  font-weight: 500;
+}
